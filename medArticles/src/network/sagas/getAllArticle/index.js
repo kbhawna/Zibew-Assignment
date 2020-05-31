@@ -6,7 +6,7 @@ import {
 } from '../../../redux/actions/user';
 
 import {makeNetworkCall} from '../../index';
-import {apiCodes } from '../../../utils/index';
+import {apiCodes} from '../../../utils/index';
 
 function getArticleListAPI(action) {
   const {payload} = action;

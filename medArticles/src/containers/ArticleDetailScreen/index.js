@@ -161,7 +161,7 @@ class ArticleDetailScreen extends Component {
           <ScrollView>
             <HTMLView
               value={this.state.articleDescription}
-              style={{color: '#000000'}}
+              style={{color: '#000000', left: width * 0.05, marginRight: width * 0.1}}
             />
           </ScrollView>
         </View>
